@@ -3,7 +3,13 @@
 
 .body{
     font-family: 'Poppins', sans-serif;
+    background: #AAAAAA;
+    position: relative;
+    width:60%;
+    margin: 0 auto;
+   
 }
+
 nav{
     display:flex;
     justify-content: space-between;
@@ -20,4 +26,25 @@ nav{
     margin-right: 34px;
     font-size: 16px;
     font-weight: 600;
+}
+.title-container{
+    display: flex;
+}
+.title h1{
+    font-size: 52px;
+    font-weight:bold;
+    font-style: normal;
+}
+.title button{
+    border: 1px solid white;
+    border-radius: 41px;
+    padding: 10px 24px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight:bold;
+    background: #E02C6D;;
+}
+.title-img{
+    width: 440px;
+    height: 414px;
 }
