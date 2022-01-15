@@ -81,10 +81,17 @@ nav{
     
 }
 .logo{
-    border: 1px solid black;
+    border-top: 1px solid #cac8c8ea;
+    border-bottom: 1px solid #cac8c8ea;;
     position: relative;
     top: 220px;
     bottom: 30px;
+    width: 1110px;
+    height: 110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
    
 }
 
@@ -106,6 +113,7 @@ nav{
 }
 .collection-title{
     font-size: 28px;
+    padding: 20px;
 
 }
 .collection-container{
@@ -159,9 +167,38 @@ collection-name{
     font-size: 16px;
     font-weight: 900;
     position: relative;
-    left: 1110px; 
+    left: 1090px; 
+    top:20px
     
 }
+
+/*................... Future product part........... */
+
+
+
+.future-product{
+    display: flex;
+    Width:1057px;
+    justify-content: space-between;
+    position: relative;
+    margin: 100px auto;
+}
+ .product-pic img{
+    width: 404px;
+    height: 270px;
+}
+.title-product h1{
+    color:#0A0826;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.title-product p{
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 700;
+}
+
  /* ...............footer part................ */
 
 footer{
@@ -170,6 +207,16 @@ footer{
     background: #0A0826;
     margin: 0 auto;
    
+}
+.product-link{
+    border: 1px solid white;
+    padding: 10px 24px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight:bold;
+    background: #E02C6D;
+    position: relative;
+    top: 16px;
 }
 
 .footer-info{
