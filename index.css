@@ -156,6 +156,12 @@ collection-name{
     color:#FB8200;
 
 }
+.rating p span{
+    font-family:'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color:#787885
+}
 .rating-info{
     font-family:'Inter', sans-serif;
     font-size: 14px;
@@ -241,4 +247,45 @@ footer{
 .footer-info span{
     font-size: 24px;
     margin-right: 16px;
+}
+
+/*.............. Responsive for Mobile/small screen device ............*/
+
+@media screen and (max-width:600px) {
+    nav,.logo,.future-product,.title-container,footer{
+        flex-direction: column;
+        width: 100%;
+        position: static;
+       
+        
+    }
+    .collection-container{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .logo{
+        display: none;
+    }
+    
+}
+
+/*.............. Responsive for Medium screen device ............*/
+
+@media screen and (max-width:900px) {
+    nav,.logo,.future-product,.title-container,footer{
+        flex-direction: column;
+        width: 100%;
+        position: static;
+       
+        
+    }
+   
+    .collection-container{
+        grid-template-columns: repeat(2,1fr);
+        width: 100%;
+    }
+    .logo{
+        display: none;
+    }
+    
 }
