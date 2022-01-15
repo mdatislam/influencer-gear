@@ -1,19 +1,27 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,800;1,700&family=Dancing+Script:wght@700&family=Montserrat:wght@700&family=Oswald:wght@700&family=Pacifico&family=Playfair+Display:wght@600&family=Poppins:ital@1&family=Roboto:wght@400;700;900&family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,800;1,700&family=Dancing+Script:wght@700&family=Montserrat:wght@700&family=Oswald:wght@700&family=Pacifico&family=Playfair+Display:wght@600&family=Poppins:ital@0;1&family=Roboto:wght@400;700;900&family=Source+Sans+Pro:wght@200&display=swap');
 
 .body{
     font-family: 'Poppins', sans-serif;
-    background: #AAAAAA;
-    position: relative;
-    width:60%;
-    margin: 0 auto;
+    background: #AAAAAA; 
+   }
    
+.start-container{
+    width: 1155px;
+    position: relative;
+    left: 120px;
+    right: 165px;
+
 }
 
 nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.start{
+    width: calc(100%-240px);
 }
 .main-title p{
     font-size: 24px;
@@ -32,7 +40,7 @@ nav{
 }
 .title h1{
     font-size: 52px;
-    font-weight:bold;
+    font-weight:900;
     font-style: normal;
 }
 .title button{
@@ -47,4 +55,68 @@ nav{
 .title-img{
     width: 440px;
     height: 414px;
+}
+hr{
+    background: lightblue;
+}
+
+/* .................... Collection section........................ */
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    width: 1047px;
+    position: relative;
+    margin: 0 auto;
+  }
+.collection-container{
+    background:#FFFFFF;
+    display: flex;
+    flex-direction: column;
+    Width:329px;
+    height: 476px;
+   border-radius: 5px;
+   border: 1px solid black
+  
+}
+.collection-pic,.collection-info{
+    position: relative;
+    left: 14px;
+    top:17px;
+
+}
+.collection-pic img{
+    width: 300px;
+    height: 256px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+
+}
+
+.collection-name h1{
+    font-size: 28px;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    position: relative;
+    top: 16px;
+    bottom: 0;
+}
+.collection-info h2{
+    font-size: 24px; 
+}
+.rating .fa-star{
+    color:#FB8200;
+}
+
+.fa-star-half-alt{
+    color:#FB8200;
+
+}
+.rating-info{
+    font-family:'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color:#787885
 }
