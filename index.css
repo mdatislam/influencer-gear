@@ -5,13 +5,11 @@
     font-family: 'Poppins', sans-serif;
     background: #AAAAAA; 
    }
-   
 .start-container{
     width: 1155px;
     position: relative;
     left: 120px;
     right: 165px;
-
 }
 
 nav{
@@ -50,7 +48,7 @@ nav{
     color: #FFFFFF;
     font-size: 16px;
     font-weight:bold;
-    background: #E02C6D;;
+    background: #E02C6D;
 }
 .title-img{
     width: 440px;
@@ -61,24 +59,39 @@ hr{
 }
 
 /* .................... Collection section........................ */
+.collection-blog{
+    display: flex;
+    flex-direction: column;
+   align-items:center;
+   /* justify-content: center; */
+    width: 1047px;
+    /* height: 1662px; */
+    position: relative;
+    margin: 0 auto;
+    border-radius: 5px;
+    /* border: 1px solid black; */
+}
+.collection-title{
+    font-size: 28px;
+   
+}
 .collections{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-row-gap: 30px;
     grid-column-gap: 30px;
-    width: 1047px;
-    position: relative;
-    margin: 0 auto;
-  }
+    background: rgba(238, 236, 236, 0.582);
+    border-radius: 5px;
+    padding: 10px;
+
+}
 .collection-container{
     background:#FFFFFF;
     display: flex;
     flex-direction: column;
     Width:329px;
     height: 476px;
-   border-radius: 5px;
-   border: 1px solid black
-  
+   border-radius: 5px; 
 }
 .collection-pic,.collection-info{
     position: relative;
@@ -93,18 +106,20 @@ hr{
     border-radius: 5px;
 
 }
-
-.collection-name h1{
-    font-size: 28px;
-    font-weight: 900;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
+.collection-info{
     position: relative;
-    top: 16px;
-    bottom: 0;
+    top: 2px;
+    /* margin: 0; */
+
 }
+
+.collection-name{
+    font-size: 28px;
+    font-weight: 700;
+}
+
 .collection-info h2{
-    font-size: 24px; 
+    font-size: 24px;   
 }
 .rating .fa-star{
     color:#FB8200;
@@ -119,4 +134,46 @@ hr{
     font-size: 14px;
     font-weight: bold;
     color:#787885
+}
+.see-more {
+    color: rgba(224, 44, 109, 0.87);
+    font-size: 16px;
+    font-weight: 900;
+    position: relative;
+    left: 1110px;
+   
+   
+}
+
+/*.............. footer part ...............*/
+footer{
+    width:1440px;
+    height: 239px;
+    background: #0A0826;
+    margin:0; !important
+   
+}
+.footer-info{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    padding: 30px;
+    /* position: relative;
+    /* text-align: center; */
+    margin:auto; */
+}
+.footer-info h2{
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.footer-info h3,p{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Manrope', sans-serif;
+    color: #D9DBE1;
+}
+.footer-info span{
+    font-size: 24px;
+    margin-right: 16px;
 }
